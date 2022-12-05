@@ -1,0 +1,23 @@
+{
+  "name": "brevifolia-next",
+  "private": true,
+  "scripts": {
+    "dev": "tinacms dev -c \"next dev\"",
+    "build": "tinacms build && next build",
+    "start": "tinacms build && next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.0.4",
+    "@tinacms/cli": "^1.0.1",
+    "next": "13.0.4",
+    "raw-loader": "^4.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tinacms": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.4"
+  }
+}
